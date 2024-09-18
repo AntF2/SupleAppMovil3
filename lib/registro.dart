@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:logger/logger.dart';
-import 'home.dart'; // Asegúrate de que este archivo esté en el mismo directorio
-
+import 'home.dart'; 
 class RegistroPage extends StatefulWidget {
   const RegistroPage({super.key});
 
@@ -66,7 +65,7 @@ class RegistroPageState extends State<RegistroPage> {
             ),
             TextField(
               controller: _passwordController,
-              decoration: const InputDecoration(labelText: 'Password'),
+              decoration: const InputDecoration(labelText: 'Contrasena'),
               obscureText: true,
             ),
             const SizedBox(height: 20),
@@ -74,7 +73,7 @@ class RegistroPageState extends State<RegistroPage> {
               onPressed: _isLoading ? null : _register,
               child: _isLoading
                   ? const CircularProgressIndicator()
-                  : const Text('Register'),
+                  : const Text('Registrar'),
             ),
           ],
         ),

@@ -39,4 +39,4 @@ flutter {
     source = "../.."
 }
 
-apply plugin: 'com.google.gms.google-services' // Esto debe ir al final del archivo
+apply plugin: 'com.google.gms.google-services' 
