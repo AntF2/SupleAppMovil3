@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334398861229",
+    "project_id": "supletorio-d4f36",
+    "storage_bucket": "supletorio-d4f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334398861229:android:daf88937a5aab4ae7ebb24",
+        "android_client_info": {
+          "package_name": "com.example.supletorio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMvmjnmDJfyamXGSG_ByMe1H4oonNVFSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

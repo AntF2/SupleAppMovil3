@@ -1,0 +1,30 @@
+name: supletorio
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencia principal para Firebase
+  firebase_core: ^3.5.0  # Actualiza a la versión compatible con cloud_firestore
+
+  # Dependencia para autenticación de Firebase
+  firebase_auth: ^5.3.0  # Actualiza a la versión compatible con firebase_core
+
+  # Dependencia para Firestore
+  cloud_firestore: ^5.4.2  # La versión que deseas utilizar
+  logger: ^1.0.0 # Añade esta línea
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
